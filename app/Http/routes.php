@@ -31,3 +31,6 @@ Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 // EdInfo Routes
 Route::get('/edInfos', 'EdInfoController@index');
+
+// Chart Routes
+Route::get('/chart', 'ChartController@index');
